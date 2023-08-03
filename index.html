@@ -1,0 +1,480 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>AR Marketplace</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <!-- CSS 
+    ========================= -->
+   
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body>
+<!--header area start-->
+<!--Offcanvas menu area start-->
+    <div class="off_canvars_overlay"></div>
+    <div class="Offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                    </div>
+                    <div class="Offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                              <a href="javascript:void(0)"><i class="ion-android-close"></i></a>  
+                        </div> 
+                        <div class="search_container">
+                           <form action="#">
+                                <div class="search_box">
+                                    <input placeholder="Search product..." type="text">
+                                    <button type="submit">Search</button> 
+                                </div>
+                            </form>
+                        </div> 
+                        
+                        <div class="middel_right_info">
+                            <div class="header_wishlist">
+                                <a href="wishlist.html"><img src="assets/img/user.png" alt=""></a>
+                            </div>
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
+                                <span class="cart_quantity">2</span>
+                            </div>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="product-details.html">product</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Categories </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Animals & Pets</a></li>
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Art & Abstract</a></li>
+										<li><a href="#">Car & Vehicles</a></li>
+										<li><a href="#">Characters & Creatures</a></li>
+										<li><a href="#">Electronics & Gadgets</a></li>
+										<li><a href="#">Furniture & Home</a></li>
+										<li><a href="#">Music</a></li>
+										<li><a href="#">Nature & Plants</a></li>
+										<li><a href="#">Science & Technology</a></li>
+										<li><a href="#">Sports & Fitness</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="login.html">my account</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="contact.html"> Contact Us</a> 
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="Offcanvas_footer">
+                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@drophunt.com</a></span>
+                            <ul>
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Offcanvas menu area end-->
+    
+    <header>
+        <div class="main_header">
+            <!--header middel start-->
+            <div class="header_middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="logo">
+                                <a href="index-2.html"><img src="./assets/img/ar-logo-removebg-preview.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6">
+                            <div class="middel_right">
+                                <div class="search_container">
+                                   <form action="#">
+                                        <div class="search_box">
+                                            <input placeholder="Search 3d models..." type="text">
+                                            <button type="submit">Search</button> 
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="middel_right_info">
+                                    <div class="header_wishlist">
+                                        <a href="#"><img src="assets/img/user.png" alt=""></a>
+                                    </div>
+                                    <div class="mini_cart_wrapper">
+                                        <a href="javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
+                                        <span class="cart_quantity">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header middel end-->
+            <!--header bottom satrt-->
+            <div class="main_menu_area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="main_menu menu_position"> 
+                                <nav>  
+                                    <ul>
+                                        <li><a href="index-2.html">home</a></li>
+                                        <li><a href="product-details.html">Products</a></li>
+                                        
+                                        <li><a class="active" href="#">Categories <i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="#">Animals & Pets</a></li>
+                                                <li><a href="#">Architecture</a></li>
+                                                <li><a href="#">Art & Abstract</a></li>
+                                                <li><a href="#">Car & Vehicles</a></li>
+                                                <li><a href="#">Characters & Creatures</a></li>
+                                                <li><a href="#">Electronics & Gadgets</a></li>
+                                                <li><a href="#">Furniture & Home</a></li>
+                                                <li><a href="#">Music</a></li>
+                                                <li><a href="#">Nature & Plants</a></li>
+                                                <li><a href="#">Science & Technology</a></li>
+                                                <li><a href="#">Sports & Fitness</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#"> Upload Products</a></li>
+                                        <li><a href="#"> Contact Us</a></li>
+                                        <li style="float: right;"><a href="#"> Login / Register</a></li>   
+                                    </ul>  
+                                </nav> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header bottom end-->
+        </div> 
+    </header>
+    <!--header area end-->
+
+
+    <!--slider area start-->
+    <section class="slider_section d-flex align-items-center" data-bgimg="">
+        <div class="slider_area owl-carousel">
+            <div class="single_slider d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="slider_content">
+                                <h1>Next level of 3d Objects</h1>
+                                <h2>Insane Quality for use</h2>
+                                <p>Special offer <span> 20% off </span> this week</p>
+                                <a class="button" href="#">Join For Free</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="slider_content">
+                                <img src="./assets/img/hero-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--slider area end-->
+
+    <!--Tranding product-->
+    <section class="pt-60 pb-30 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="section-title">
+                        <h2>Trending Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-1.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Abstract Art</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-1.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Product Name</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-1.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Product Name</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Tranding product-->
+    
+    <!--Other product-->
+    <section class="pt-60 pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="section-title">
+                        <h2>Other collections</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding mb-30">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-3.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Product Name</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding mb-30">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-3.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Product Name</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="single-tranding mb-30">
+                        <a href="product-details.html">
+                            <div class="tranding-pro-img">
+                                <img src="./assets/img/product-3.jpg" alt="">
+                            </div>
+                            <div class="tranding-pro-title">
+                                <h3>Product Name</h3>
+                                <h4>Buy Now</h4>
+                            </div>
+                            <div class="tranding-pro-price">
+                                <div class="price_box">
+                                    <span class="current_price">$70.00</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Other product-->
+    <!--shipping area start-->
+    <section class="shipping_area">
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="assets/img/about/shipping1.png" alt="">
+                        </div>
+                        <div class="shipping_content">
+                            <h2>Free Shipping</h2>
+                            <p>Free shipping on all US order</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="assets/img/about/shipping2.png" alt="">
+                        </div>
+                        <div class="shipping_content">
+                            <h2>Support 24/7</h2>
+                            <p>Contact us 24 hours a day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="assets/img/about/shipping3.png" alt="">
+                        </div>
+                        <div class="shipping_content">
+                            <h2>100% Money Back</h2>
+                            <p>You have 30 days to Return</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="single_shipping">
+                        <div class="shipping_icone">
+                            <img src="assets/img/about/shipping4.png" alt="">
+                        </div>
+                        <div class="shipping_content">
+                            <h2>Payment Secure</h2>
+                            <p>We ensure secure payment</p>
+                        </div>
+                    </div>
+                </div>                          
+            </div>
+        </div>
+    </section>
+    <!--shipping area end-->
+	
+	
+    <!--footer area start-->
+    <footer class="footer_widgets">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container contact_us">
+                        <div class="footer_logo">
+                            <a href="#"><img src="./assets/img/ar-logo-removebg-preview.png" alt=""></a>
+                        </div>
+                        <div class="footer_contact">
+                            <p>By making it simple for anybody to upload and locate 3D content online, AR is ushering in a new era of creation. We are the largest platform for immersive and interactive 3D, with a community of millions of creators and millions of models published. Furthermore, our shop enables buyers and sellers to transact 3D models with trust by providing a realtime viewer and model inspector.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>Information</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Returns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widgets_container widget_menu">
+                        <h3>Store</h3>
+                        <div class="footer_menu">
+                            <ul>
+                                <li><a href="#">Buy 3D models</a></li>
+                                <li><a href="#">Best Selling</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li><a href="#">Become a seller</a></li>
+                                <li><a href="#">Free 3d models</a></li>
+                                <li><a href="#">International Orders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container newsletter">
+                        <h3>Follow Us</h3>
+                        <div class="footer_social_link">
+                            <ul>
+                                <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe_form">
+                            <h3>Join Our Newsletter Now</h3>
+                            <form id="mc-form" class="mc-form footer-newsletter" >
+                                <input id="mc-email" type="email" autocomplete="off" placeholder="Your email address..." />
+                                <button id="mc-submit">Subscribe!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!--footer area end-->
+<!-- JS
+============================================ -->
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
